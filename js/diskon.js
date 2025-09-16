@@ -18,5 +18,5 @@ document.getElementById("hitung").addEventListener("click", function () {
   document.getElementById("hasilDiskon").textContent =
     "Diskon: Rp " + diskon.toLocaleString("id-ID");
   document.getElementById("hasilBayar").textContent =
-    "Total Bayar: Rp " + totalBayar.toLocaleString("id-ID");
+    "Total: Rp " + totalBayar.toLocaleString("id-ID");
 });
